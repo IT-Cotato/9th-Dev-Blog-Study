@@ -21,7 +21,7 @@
 
 -   Smurf 스머프 / Smurfing 스머핑 : 출발지 주소를 공격 대상의 IP로 설정하여 네트워크 전체에게 ICMP Echo 패킷을 직접 브로드캐스팅하여 마비시킨다.
     -   대응방안 : 브로드캐스트 패킷 허용하지 않도록 라우터를 설정. ICMP Echo Request 메시지 응답하지 않도록 시스템을 설정한다.
-    -   브로드캐스팅 : IP 주소의 호스트 ID 비트를 모두 1로 설저앟여 직접 브로드캐스팅 한다.
+    -   브로드캐스팅 : IP 주소의 호스트 ID 비트를 모두 1로 설정하여 직접 브로드캐스팅 한다.
 
 <img src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcAlkjM%2FbtsGzLmHDAi%2Fic8p7OhPGesopXsVI9gEtK%2Fimg.png" originWidth:1710 originHeight:650 style:alignCenter>
 
@@ -51,7 +51,7 @@
 -   공격도구 : Trinoo(UDP flood 서비스 거부 공격 유발), Tribe Flood Network(TFN, 거의 대부분의 시스템에 대해 공격을 수행할 수 있는 도구), Stacheldraht(리눅스 등 시스템용 멀웨어 도구)
 -   공격 종류
     -   대역폭 소진 공격 (3~4계층) : UDP/ICMP Flodding, DNS Query Flodding, SYN(+ACK) Flodding, LAND Attack, Teardrop
-        -   서비스 마비 공격 (7계층) : GET Flodding, GET with Cache-Control, Slowris, Slowloris, Slow Read Attack, Hash DoS, Hulk DoS, FTP / SMPT Attack
+        -   서비스 마비 공격 (7계층) : GET Flodding, GET with Cache-Control, Slowris, Slowloris, Slow Read Attack, Hash DoS, Hulk DoS, FTP / SMTP Attack
 
 ## DRDoS 공격
 
@@ -82,7 +82,7 @@ ACK Storm 증가, 네트워크 부하 증가 현상이 발생한다.
 \- 공격방식
 
 1.  공격대상자와 통신하는 네트워크 상의 패킷을 감시하고
-2.  스니핑 하여 Sequence Numver를 획득한다. 이는 TCP연결에 사용되는 일련번호
+2.  스니핑 하여 Sequence Number를 획득한다. 이는 TCP연결에 사용되는 일련번호
 3.  공격자는 데이터 전송중인 네트워크 사이를 강제로 비동기화 상태로 만들고
 4.  공격자는 위조된 패킷 Client Sequence Number을 공격대상자에게 보낸다.
 
