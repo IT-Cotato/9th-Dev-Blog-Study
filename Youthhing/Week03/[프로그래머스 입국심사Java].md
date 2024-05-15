@@ -60,7 +60,7 @@ ex) [ 7, 10 ] : 심사관 1은 1명을 입국 심사를 하는데 7분의 시간
 long start = 1; 
 long end = 어떤 가능한 최댓값
 
-while(start <= left) {
+while(start <= end) {
 		long mid = (start + end) / 2;
 		
 		long value = ?? // mid를 기준으로 찾으려는 값을 계산
