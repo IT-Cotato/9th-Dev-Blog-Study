@@ -87,7 +87,10 @@ The compiler for next generation JavaScript.
 참고 : <br/>
 [[JavaScript] 번들러(Bundler)란?](https://blog.leehov.in/24) <br/>
 [Webpack, Babel 설정 A to Z 정리(빌드 속도 개선, 폴리필 등)[Smody 프로젝트]](https://wonsss.github.io/webpack/webpack-all-in-one/) <br/>
+[모듈 번들러란? - Webpack vs Vite 무엇을 써야 할까요?](https://enjoydev.life/blog/frontend/4-module-bundler#webpack-vs-vite) <br/>
 [[개발지식] Webpack과 Babel은 왜 쓰이는 건지 알고 계신가요?](https://junghyeonsu.tistory.com/277) <br/>
+[프론트엔드 개발 환경 체크리스트(2023)](https://blog.shiren.dev/2023-03-20/) <br/>
+[Webpack → Vite: 번들러 마이그레이션 이야기](https://engineering.ab180.co/stories/webpack-to-vite) <br/>
+[Vite 공식문서](https://ko.vitejs.dev/guide/)
 [폴리필(polyfill)이란](https://db2dev.tistory.com/entry/%ED%8F%B4%EB%A6%AC%ED%95%84Polyfill%EC%9D%B4%EB%9E%80) <br/>
 [WebPack과 Babel 그리고 Polyfill에 대해](https://velog.io/@hozzijeong/WebPack%EA%B3%BC-Babel-%EA%B7%B8%EB%A6%AC%EA%B3%A0-Polyfill%EC%97%90-%EB%8C%80%ED%95%B4#%ED%8F%B4%EB%A6%AC%ED%95%84) <br/>
-[프론트엔드 개발 환경 체크리스트(2023)](https://blog.shiren.dev/2023-03-20/)
